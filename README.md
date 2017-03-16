@@ -5,10 +5,18 @@
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
 		
 	* for loop
+	  * A 'for loop' lets you repeat a block of code a specified amount of times, often used to go through an entire array or object's contents. Also it can be used to simplify routines that would be repetitive if written out multiple times.
 	* && || !
+	  * These are operators to use within 'if statements' to help narrow down conditions.
+	    * && means AND. Both statements have to be true to overall be true. true && true = true / true && false = false
+	    * || means OR. Only one statement has to be true to overall be true. true || true = true / true || false = true
+	    * ! means NOT. This will give you the opposite of the statement. !true = false / !false = true
 	* Array
+	  * An array is a group of variables, usually containing common values. These variables can be anything such as strings, numbers, objects, or even more arrays.
 	* git
+	  * Git is a system that keeps track of code. It knows the current changes, past versions, and even lets you grab other peoples' code to modify yourself and then share back to add into their "master" version.
 	* GitHub
+	  * GitHub is the web page interface for Git. A lot of text-based commands are simplified using a graphical interface. Plus it's easy to share and work with other people using the web site.
 
 
 2. Install git.  https://git-scm.com/downloads
