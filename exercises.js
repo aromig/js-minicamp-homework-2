@@ -1,4 +1,4 @@
-//Do not change any of the function names
+ //Do not change any of the function names
 
 function getBiggest(x, y) {
   //x and y are integers.  Return the larger integer
@@ -61,6 +61,17 @@ function fizzBuzz(num) {
   result += ((num % 3) === 0) ? 'fizz' : '';
   result += ((num % 5) === 0) ? 'buzz' : '';
   return (result != '') ? result : num;
+
+  /* or the classic way
+  if (num % 3 === 0 && num % 5 === 0) {
+  	return 'fizzbuzz';
+  } else if (num % 3 === 0) {
+  	return 'fizz';
+  } else if (num % 5 === 0) {
+  	return 'buzz';
+  } else {
+  	return num;
+  } */
 }
 
 function isPrime(num) {
@@ -128,12 +139,7 @@ function wordsToSentence(words) {
   //return a string that is all of the words concatenated together
   //spaces need to be between each word
   //example: ['Hello', 'world!'] -> 'Hello world!'
-  var sentence = '';
-  for (var i = 0; i < words.length; i++) {
-    sentence += words[i];
-    if (i != words.length-1) { sentence += ' '; }
-  }
-  return sentence;
+  return words.join(' ');
 }
 
 function contains(arr, item) {
